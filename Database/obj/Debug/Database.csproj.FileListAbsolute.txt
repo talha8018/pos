@@ -1,0 +1,7 @@
+c:\Users\Talha\documents\visual studio 2013\Projects\POS\Database\bin\Debug\Database.dll
+c:\Users\Talha\documents\visual studio 2013\Projects\POS\Database\bin\Debug\Database.pdb
+c:\Users\Talha\documents\visual studio 2013\Projects\POS\Database\bin\Debug\Model.dll
+c:\Users\Talha\documents\visual studio 2013\Projects\POS\Database\bin\Debug\Model.pdb
+c:\Users\Talha\documents\visual studio 2013\Projects\POS\Database\obj\Debug\Database.csprojResolveAssemblyReference.cache
+c:\Users\Talha\documents\visual studio 2013\Projects\POS\Database\obj\Debug\Database.dll
+c:\Users\Talha\documents\visual studio 2013\Projects\POS\Database\obj\Debug\Database.pdb

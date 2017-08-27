@@ -1,0 +1,15 @@
+c:\users\talha\documents\visual studio 2013\Projects\POS\POS\bin\Debug\POS.exe.config
+c:\users\talha\documents\visual studio 2013\Projects\POS\POS\bin\Debug\POS.exe
+c:\users\talha\documents\visual studio 2013\Projects\POS\POS\bin\Debug\POS.pdb
+c:\users\talha\documents\visual studio 2013\Projects\POS\POS\obj\Debug\POS.csprojResolveAssemblyReference.cache
+c:\users\talha\documents\visual studio 2013\Projects\POS\POS\obj\Debug\POS.Login.resources
+c:\users\talha\documents\visual studio 2013\Projects\POS\POS\obj\Debug\POS.Properties.Resources.resources
+c:\users\talha\documents\visual studio 2013\Projects\POS\POS\obj\Debug\POS.csproj.GenerateResource.Cache
+c:\users\talha\documents\visual studio 2013\Projects\POS\POS\obj\Debug\POS.exe
+c:\users\talha\documents\visual studio 2013\Projects\POS\POS\obj\Debug\POS.pdb
+c:\users\talha\documents\visual studio 2013\Projects\POS\POS\bin\Debug\Business.dll
+c:\users\talha\documents\visual studio 2013\Projects\POS\POS\bin\Debug\Model.dll
+c:\users\talha\documents\visual studio 2013\Projects\POS\POS\bin\Debug\Database.dll
+c:\users\talha\documents\visual studio 2013\Projects\POS\POS\bin\Debug\Business.pdb
+c:\users\talha\documents\visual studio 2013\Projects\POS\POS\bin\Debug\Model.pdb
+c:\users\talha\documents\visual studio 2013\Projects\POS\POS\bin\Debug\Database.pdb

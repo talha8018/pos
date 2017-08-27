@@ -1,0 +1,4 @@
+c:\Users\Talha\documents\visual studio 2013\Projects\POS\Model\bin\Debug\Model.dll
+c:\Users\Talha\documents\visual studio 2013\Projects\POS\Model\bin\Debug\Model.pdb
+c:\Users\Talha\documents\visual studio 2013\Projects\POS\Model\obj\Debug\Model.dll
+c:\Users\Talha\documents\visual studio 2013\Projects\POS\Model\obj\Debug\Model.pdb
