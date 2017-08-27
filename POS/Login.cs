@@ -35,7 +35,9 @@ namespace POS
             if(is_auth==1)
             {
                 // User Authentiacated
-                MessageBox.Show(is_auth.ToString());
+                this.Hide();
+                Dashboard dashboard = new Dashboard();
+                dashboard.Show();
             }
             else
             {
@@ -43,5 +45,15 @@ namespace POS
             }
             
         }
+
+        private void txt_username_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if(!char.IsLetterOrDigit(e.KeyChar) && !char.IsWhiteSpace(e.KeyChar) && !char.IsControl(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+        }
+
+       
     }
 }

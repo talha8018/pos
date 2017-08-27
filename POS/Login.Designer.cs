@@ -63,6 +63,7 @@
             this.txt_username.Name = "txt_username";
             this.txt_username.Size = new System.Drawing.Size(159, 21);
             this.txt_username.TabIndex = 2;
+            this.txt_username.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_username_KeyPress);
             // 
             // txt_password
             // 
@@ -71,6 +72,8 @@
             this.txt_password.Name = "txt_password";
             this.txt_password.Size = new System.Drawing.Size(159, 21);
             this.txt_password.TabIndex = 3;
+            this.txt_password.UseSystemPasswordChar = true;
+            this.txt_password.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_username_KeyPress);
             // 
             // btn_login
             // 
@@ -78,7 +81,7 @@
             this.btn_login.Name = "btn_login";
             this.btn_login.Size = new System.Drawing.Size(75, 23);
             this.btn_login.TabIndex = 4;
-            this.btn_login.Text = "Login";
+            this.btn_login.Text = "&Login";
             this.btn_login.UseVisualStyleBackColor = true;
             this.btn_login.Click += new System.EventHandler(this.btn_login_Click);
             // 
@@ -88,7 +91,7 @@
             this.btn_exit.Name = "btn_exit";
             this.btn_exit.Size = new System.Drawing.Size(75, 23);
             this.btn_exit.TabIndex = 5;
-            this.btn_exit.Text = "Exit";
+            this.btn_exit.Text = "&Exit";
             this.btn_exit.UseVisualStyleBackColor = true;
             this.btn_exit.Click += new System.EventHandler(this.btn_exit_Click);
             // 
