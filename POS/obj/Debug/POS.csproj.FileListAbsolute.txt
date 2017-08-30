@@ -14,3 +14,8 @@ c:\users\talha\documents\visual studio 2013\Projects\POS\POS\bin\Debug\Business.
 c:\users\talha\documents\visual studio 2013\Projects\POS\POS\bin\Debug\Model.pdb
 c:\users\talha\documents\visual studio 2013\Projects\POS\POS\bin\Debug\Database.pdb
 c:\users\talha\documents\visual studio 2013\Projects\POS\POS\obj\Debug\POS.Dashboard.resources
+C:\Users\Talha\documents\visual studio 2013\Projects\POS\POS\bin\Debug\aa\POS.resources.dll
+C:\Users\Talha\documents\visual studio 2013\Projects\POS\POS\obj\Debug\POS.Users.resources
+C:\Users\Talha\documents\visual studio 2013\Projects\POS\POS\obj\Debug\POS.Dashboard.aa.resources
+C:\Users\Talha\documents\visual studio 2013\Projects\POS\POS\obj\Debug\aa\POS.resources.dll
+C:\Users\Talha\documents\visual studio 2013\Projects\POS\POS\obj\Debug\POS.AddUser.resources

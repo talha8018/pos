@@ -46,13 +46,18 @@ namespace POS
             
         }
 
-        private void txt_username_KeyPress(object sender, KeyPressEventArgs e)
+   
+
+        private void txt_password_KeyDown_1(object sender, KeyEventArgs e)
         {
-            if(!char.IsLetterOrDigit(e.KeyChar) && !char.IsWhiteSpace(e.KeyChar) && !char.IsControl(e.KeyChar))
+            if (e.KeyCode == Keys.Enter)
             {
-                e.Handled = true;
+                btn_login_Click(this, new EventArgs());
+                e.Handled = e.SuppressKeyPress = true;
             }
         }
+
+      
 
        
     }

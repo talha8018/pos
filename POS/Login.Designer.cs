@@ -63,7 +63,7 @@
             this.txt_username.Name = "txt_username";
             this.txt_username.Size = new System.Drawing.Size(159, 21);
             this.txt_username.TabIndex = 2;
-            this.txt_username.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_username_KeyPress);
+            this.txt_username.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt_password_KeyDown_1);
             // 
             // txt_password
             // 
@@ -73,7 +73,7 @@
             this.txt_password.Size = new System.Drawing.Size(159, 21);
             this.txt_password.TabIndex = 3;
             this.txt_password.UseSystemPasswordChar = true;
-            this.txt_password.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_username_KeyPress);
+            this.txt_password.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt_password_KeyDown_1);
             // 
             // btn_login
             // 

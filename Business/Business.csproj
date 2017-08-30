@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddUser_Bus.cs" />
     <Compile Include="Login_Bus.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
