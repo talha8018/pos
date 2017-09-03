@@ -66,6 +66,7 @@
             // 
             // menuDashboard
             // 
+            this.menuDashboard.BackColor = System.Drawing.Color.White;
             this.menuDashboard.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
             this.editToolStripMenuItem,
@@ -266,13 +267,16 @@
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.Controls.Add(this.menuDashboard);
+            this.ForeColor = System.Drawing.Color.Black;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuDashboard;
             this.MaximizeBox = false;
             this.Name = "Dashboard";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Dashboard_FormClosing);
+            this.Load += new System.EventHandler(this.Dashboard_Load);
             this.menuDashboard.ResumeLayout(false);
             this.menuDashboard.PerformLayout();
             this.ResumeLayout(false);

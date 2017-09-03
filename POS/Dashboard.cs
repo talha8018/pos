@@ -24,7 +24,7 @@ namespace POS
             {
                 //Yes or no message box to exit the application
                 DialogResult Response;
-                Response = MessageBox.Show("Are you sure you want to Exit?", "Exit", MessageBoxButtons.YesNo);
+                Response = MessageBox.Show("Are you sure you want to Exit?", "Exit", MessageBoxButtons.YesNo,MessageBoxIcon.Question);
                 if (Response == DialogResult.Yes)
                 {
                     m_isExiting = true;
@@ -43,6 +43,29 @@ namespace POS
             user.MdiParent = this;
             user.Dock = DockStyle.Fill;
             user.Show();
+        }
+
+        private void Dashboard_Load(object sender, EventArgs e)
+        {
+            MdiClient ctlMDI;
+
+            // Loop through all of the form's controls looking
+            // for the control of type MdiClient.
+            foreach (Control ctl in this.Controls)
+            {
+                try
+                {
+                    // Attempt to cast the control to type MdiClient.
+                    ctlMDI = (MdiClient)ctl;
+
+                    // Set the BackColor of the MdiClient control.
+                    ctlMDI.BackColor = this.BackColor;
+                }
+                catch (InvalidCastException exc)
+                {
+                    // Catch and ignore the error if casting failed.
+                }
+            }
         }        
     }
 }

@@ -142,6 +142,7 @@
             this.combo_role.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.combo_role.FormattingEnabled = true;
             this.combo_role.Items.AddRange(new object[] {
+            "Cashier",
             "Salesman",
             "Editor",
             "Admin",
@@ -150,6 +151,7 @@
             this.combo_role.Name = "combo_role";
             this.combo_role.Size = new System.Drawing.Size(150, 21);
             this.combo_role.TabIndex = 6;
+            this.combo_role.SelectedIndexChanged += new System.EventHandler(this.combo_role_SelectedIndexChanged);
             // 
             // label6
             // 
