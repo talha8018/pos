@@ -19,3 +19,4 @@ C:\Users\Talha\documents\visual studio 2013\Projects\POS\POS\obj\Debug\POS.Users
 C:\Users\Talha\documents\visual studio 2013\Projects\POS\POS\obj\Debug\POS.Dashboard.aa.resources
 C:\Users\Talha\documents\visual studio 2013\Projects\POS\POS\obj\Debug\aa\POS.resources.dll
 C:\Users\Talha\documents\visual studio 2013\Projects\POS\POS\obj\Debug\POS.AddUser.resources
+C:\Users\Talha\Documents\Visual Studio 2013\Projects\POS\POS\obj\Debug\POS.EditUser.resources

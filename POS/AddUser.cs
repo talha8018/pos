@@ -73,8 +73,12 @@ namespace POS
                    if(user_added)
                    {
                        ResetAllControls(this);
-                       MessageBox.Show("New User added."); 
+                       MessageBox.Show("New User added.");
                        this.Close();
+                   }
+                   else
+                   {
+                       MessageBox.Show("This Username already exist.");
                    }
                }
                else

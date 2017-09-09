@@ -39,6 +39,12 @@ namespace POS
 
         private void addUserToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            if (ActiveMdiChild != null)
+            {
+                ActiveMdiChild.Close();
+            }
+               
+
             Users user = new Users();
             user.MdiParent = this;
             user.Dock = DockStyle.Fill;
@@ -63,6 +69,7 @@ namespace POS
                 }
                 catch (InvalidCastException exc)
                 {
+                    
                     // Catch and ignore the error if casting failed.
                 }
             }

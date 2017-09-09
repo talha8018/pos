@@ -16,5 +16,10 @@ namespace Business
             bool user_added = AddUser_DB.isUserAdded(add_user); ;
             return user_added;
         }
+
+        public static void deleteUser(int id)
+        {
+            AddUser_DB.deleteUser(id);
+        }
     }
 }
